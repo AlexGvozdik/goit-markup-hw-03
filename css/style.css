@@ -122,11 +122,6 @@ address {
   align-items: center;
 }
 
-.header-nav > .logo {
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
-
 .header-nav-list {
   display: flex;
   margin-left: 93px;
@@ -137,9 +132,6 @@ address {
 }
 
 .header-link {
-  padding-top: 32px;
-  padding-bottom: 32px;
-
   letter-spacing: var(--main-links-letter-spacing);
   font-weight: 500;
   font-size: 14px;
@@ -161,9 +153,6 @@ address {
 }
 
 .header-contacts-link {
-  padding-top: 32px;
-  padding-bottom: 32px;
-
   color: var(--paragraph-text-color);
 
   letter-spacing: var(--main-links-letter-spacing);
