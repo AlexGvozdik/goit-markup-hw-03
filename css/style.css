@@ -220,15 +220,13 @@ address {
 .features-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -15px;
-  margin-top: -15px;
+  margin: -15px;
 }
 
 .features-item {
-  flex-basis: calc(100% / 4 - 15px);
+  flex-basis: calc(100% / 4 - 30px);
 
-  margin-left: 15px;
-  margin-top: 15px;
+  margin: 15px;
 }
 
 .features-item-title {
@@ -262,14 +260,12 @@ address {
 .duties-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -15px;
-  margin-top: -15px;
+  margin: -15px;
 }
 
 .duties-item {
-  flex-basis: calc(100% / 3 - 15px);
-  margin-left: 15px;
-  margin-top: 15px;
+  flex-basis: calc(100% / 3 - 30px);
+  margin: 15px;
 }
 
 /* ==================== END DUTIES ===================== */
@@ -292,8 +288,7 @@ address {
 .staff-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -15px;
-  margin-top: -15px;
+  margin: -15px;
 }
 
 .staff-info-title {
@@ -320,9 +315,8 @@ address {
 }
 
 .staff-item-card {
-  flex-basis: calc(100% / 4 - 15px);
-  margin-left: 15px;
-  margin-top: 15px;
+  flex-basis: calc(100% / 4 - 30px);
+  margin: 15px;
 }
 
 .staff-info {
@@ -409,15 +403,12 @@ address {
 .port-list-card {
   display: flex;
   flex-wrap: wrap;
-
-  margin-left: -15px;
-  margin-top: -15px;
+  margin: -15px;
 }
 
 .port-item-card {
   flex-basis: calc(100% / 3 - 30px);
-  margin-left: 15px;
-  margin-top: 15px;
+  margin: 15px;
 
   background-color: var(--primary-background-color);
 }
