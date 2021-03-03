@@ -224,7 +224,7 @@ address {
 }
 
 .features-item {
-  flex-basis: calc((100% - 120px) / 4);
+  flex-basis: calc((100% - 90px) / 4);
   margin: 15px;
 }
 
@@ -263,7 +263,7 @@ address {
 }
 
 .duties-item {
-  flex-basis: calc((100% - 90px) / 3);
+  flex-basis: calc((100% - 60px) / 3);
   margin: 15px;
 }
 
@@ -314,7 +314,7 @@ address {
 }
 
 .staff-item-card {
-  flex-basis: calc((100% - 120px) / 4);
+  flex-basis: calc((100% - 90px) / 4);
   margin: 15px;
 }
 
@@ -407,7 +407,7 @@ address {
 }
 
 .port-item-card {
-  flex-basis: calc((100% - 90px) / 3);
+  flex-basis: calc((100% - 60px) / 3);
   margin: 15px;
 
   background-color: var(--primary-background-color);
