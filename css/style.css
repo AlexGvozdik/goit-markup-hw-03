@@ -125,6 +125,7 @@ address {
 .header-nav-list {
   display: flex;
   margin-left: 93px;
+  align-items: center;
 }
 
 .header-list-item:not(:first-child) {
@@ -143,6 +144,15 @@ address {
   color: var(--accent-text-color);
 }
 
+/* полосочкаааааааааааааааааа */
+.current::after {
+  content: "";
+  width: 48px;
+  height: 4px;
+  display: block;
+  /* margin: 28px auto 0; */
+  background-color: var(--accent-text-color);
+}
 .header-contacts {
   display: flex;
   margin-left: auto;
@@ -305,6 +315,8 @@ address {
 }
 
 .staff-info-paragraph {
+  margin-bottom: 16px;
+
   font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
@@ -327,12 +339,47 @@ address {
 
 .staff-info {
   text-align: center;
-
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-right: 57px;
-  padding-left: 59px;
+  padding-right: 32px;
+  padding-left: 32px;
 }
+
+.social-list {
+  display: flex;
+  outline: 1px solid black;
+  align-items: center;
+  justify-content: center;
+}
+.social-link-item:not(:last-child) {
+  margin-right: 10px;
+}
+.social-link-item-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  outline: 1px solid green;
+}
+
+.social-link-item-link:hover,
+.social-link-item-link:focus {
+  background-color: var(--accent-text-color);
+}
+.social-list-icon {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+
+.social-link-item-link:hover .social-list-icon,
+.social-link-item-link:focus .social-list-icon {
+  fill: var(--primary-background-color);
+}
+
 /* ==================== END STAFF ===================== */
 
 /* ==================== FOOTER ===================== */
